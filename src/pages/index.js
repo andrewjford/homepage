@@ -1,5 +1,5 @@
 import React from 'react'
-import headshot from './headshot2.jpg'
+import headshot from './images/headshot2.jpg'
 import Link from 'gatsby-link'
 
 import 'font-awesome/scss/font-awesome.scss'

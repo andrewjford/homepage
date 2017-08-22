@@ -2,26 +2,35 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Footer from '../pages/Footer.js'
+import Footer from '../components/Footer.js'
 import Header from '../components/Header.js'
 import './index.css'
 
 
-const TemplateWrapper = ({ children }) =>
-  <div>
-    <Helmet
-      title="Andrew J. Ford"
-      meta={[
-        { name: 'description', content: 'Personal' },
-        { name: 'keywords', content: 'personal, portfolio' },
-      ]}
-    />
-    <Header />
-    <main>
-      {children()}
-    </main>
-    <Footer />
-  </div>
+class TemplateWrapper extends React.Component {
+  constructor({ children }){
+    super();
+    this.children = children;
+  }
+
+  render() {
+    return <div>
+      <Helmet
+        title="Andrew Ford"
+        meta={[
+          { name: 'description', content: 'Personal' },
+          { name: 'keywords', content: 'personal, portfolio' },
+        ]}
+      />
+      <Header path={this.props.location.pathname}/>
+      <main>
+        {this.children()}
+      </main>
+      <Footer />
+    </div>
+  }
+}
+
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,

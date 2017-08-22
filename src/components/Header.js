@@ -1,11 +1,11 @@
 import React from 'react';
 import Link from 'gatsby-link'
 
-const Header = () => {
-  if(window.location.pathname === "/"){
+const Header = (props) => {
+  if(props.path === "/"){
     return <div style={{height: "1.45rem"}}></div>;
   }
-  else if (window.location.pathname === "/about") {
+  else if (props.path === "/about") {
     return <div>
       <nav>
         <ul>
@@ -17,7 +17,7 @@ const Header = () => {
       </nav>
     </div>
   }
-  else if (window.location.pathname === "/projects") {
+  else if (props.path === "/projects") {
     return <div>
       <nav>
         <ul>
