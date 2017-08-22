@@ -5,16 +5,22 @@ import Helmet from 'react-helmet'
 
 import './index.css'
 
-const Header = () =>
-  <div>
-    <nav>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/about">About</Link></li>
-      </ul>
-    </nav>
-  </div>
+const Header = () => {
+  if(window.location.pathname === "/"){
+    return <div style={{height: "1.45rem"}}></div>;
+  }
+  else {
+    return <div>
+      <nav>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
+          <li><Link to="/about">About</Link></li>
+        </ul>
+      </nav>
+    </div>
+  }
+}
 
 const TemplateWrapper = ({ children }) =>
   <div>

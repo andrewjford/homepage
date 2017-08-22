@@ -11,7 +11,15 @@
   text-align: center;
 }
 
+.low-navbar {
+  text-align: center;
+  font-size: 1.1rem;
+}
 
+.low-navbar a {
+  color: #430c5a;
+  margin: 0 24px;
+}
 
 .project-image {
   border-radius: 4px;
@@ -23,12 +31,13 @@
 }
 
 .project-image:hover {
-  -webkit-transform: scale(1.01);
-	transform: scale(1.01);
+  -webkit-transform: scale(1.02);
+	transform: scale(1.02);
 }
 
 a {
   text-decoration: none;
+  color: grey;
 }
 
 main {
@@ -189,7 +198,7 @@ hgroup {
   margin-bottom: 1.45rem;
 }
 ul {
-  margin-left: 1.45rem;
+  margin-left: 0;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
@@ -452,8 +461,8 @@ tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
+  /*font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
+    "Liberation Mono", Menlo, Courier, monospace;*/
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
