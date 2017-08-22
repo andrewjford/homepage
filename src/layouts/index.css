@@ -1,3 +1,12 @@
+.narrow-container {
+  margin: 0 auto;
+  max-width: 560px;
+}
+
+.about-p {
+  margin: 1rem 0;
+}
+
 .center-text {
   text-align: center;
 }
@@ -9,6 +18,23 @@
 
 .h1-index {
   text-align: center;
+}
+
+.icon-bar {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.icon-bar a {
+  color: #2d2d2d;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.light-text {
+  color: #909090;
 }
 
 .low-navbar {
@@ -25,7 +51,8 @@
 
 .low-navbar a {
   color: #430c5a;
-  margin: 0 24px;
+  margin: 0 1rem;
+  font-size: 1.1rem;
 }
 
 .project-image {
@@ -42,26 +69,70 @@
 	transform: scale(1.02);
 }
 
+.trad-link {
+  text-decoration: underline;
+  margin-right: 0.2rem;
+  color: #2d2d2d;
+}
+
+.zoom {
+  border-radius: 4px;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.zoom:hover {
+  -webkit-transform: scale(1.08);
+	transform: scale(1.08);
+}
+
 a {
   text-decoration: none;
   color: grey;
 }
 
+footer {
+  text-align: center;
+  font-size: 0.7rem;
+  color: grey;
+}
+
+footer .footer-name a {
+  padding-left: 0.2rem;
+  font-size: 0.9rem;
+}
+
+footer a {
+  /*color: #2d2d2d;*/
+}
+
+footer .line {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  width: 50%;
+  border-top: 1px solid #ededed;
+}
+
 main {
   margin: 3rem auto;
-  max-width: 560px;
+  max-width: 720px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
 }
 
 nav ul li {
   display: inline-block;
-  padding: 0 0.25rem;
+  font-size: 0.9rem;
+  padding: 0 0.4rem;
   color: grey;
 }
 
 nav {
-  max-width: 560px;
+  text-align: right;
+  margin-right: 0.4rem;
   font-family: Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -203,6 +274,8 @@ h6 {
 
 p {
   margin: 0;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
 }
 
 ul {

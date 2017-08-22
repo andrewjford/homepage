@@ -1,0 +1,47 @@
+import React from 'react';
+import Link from 'gatsby-link'
+
+const Header = () => {
+  if(window.location.pathname === "/"){
+    return <div style={{height: "1.45rem"}}></div>;
+  }
+  else if (window.location.pathname === "/about") {
+    return <div>
+      <nav>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
+          <li><a href="https://andrewjford.github.io/">Blog</a></li>
+          <li><a href={__PATH_PREFIX__ + 'resume_ford.pdf'}>Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  }
+  else if (window.location.pathname === "/projects") {
+    return <div>
+      <nav>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><a href="https://andrewjford.github.io/">Blog</a></li>
+          <li><a href={__PATH_PREFIX__ + 'resume_ford.pdf'}>Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  }
+  else {
+    return <div>
+      <nav>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><a href="https://andrewjford.github.io/">Blog</a></li>
+          <li><a href={__PATH_PREFIX__ + 'resume_ford.pdf'}>Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  }
+}
+
+export default Header;

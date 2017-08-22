@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Andrew Ford personal site`,
+    title: `Andrew Ford's personal site`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
   ],
   pathPrefix: '/',
 }

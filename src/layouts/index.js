@@ -1,27 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+import Footer from '../pages/Footer.js'
+import Header from '../components/Header.js'
 import './index.css'
 
-const Header = () => {
-  if(window.location.pathname === "/"){
-    return <div style={{height: "1.45rem"}}></div>;
-  }
-  else {
-    return <div>
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><a href={__PATH_PREFIX__ + 'resume_ford.pdf'}>Résumé</a></li>
-        </ul>
-      </nav>
-    </div>
-  }
-}
 
 const TemplateWrapper = ({ children }) =>
   <div>
@@ -36,6 +20,7 @@ const TemplateWrapper = ({ children }) =>
     <main>
       {children()}
     </main>
+    <Footer />
   </div>
 
 TemplateWrapper.propTypes = {

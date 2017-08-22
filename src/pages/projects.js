@@ -1,7 +1,7 @@
 import React from 'react';
 import npePic from './npe.png';
 import auditPic from './audit.png';
-import expensePic from './expense.png';
+import expensePic from './images/expense.png';
 import headshot from './headshot2.jpg'
 
 const Projects = props =>
@@ -11,10 +11,14 @@ const Projects = props =>
     </p>
     <h1 className="h1-index">Projects</h1>
     <h2>National Park Explorer</h2>
-    <a href="http://natl-park-explorer.herokuapp.com">
-      <img className="project-image" src={npePic} />
-    </a>
+    <div>
+      <a href="http://natl-park-explorer.herokuapp.com">
+        <img className="project-image" src={npePic} />
+      </a>
+    </div>
     <p>A map based web app that allows users to explore U.S. National Parks.</p>
+    <a className="trad-link" href="https://github.com/andrewjford/national-park-explorer-react">GitHub</a>
+    <a className="trad-link" href="http://natl-park-explorer.herokuapp.com">Demo</a>
     <p>Some of the tools used:</p>
     <ul>
       <li>React</li>
@@ -25,10 +29,14 @@ const Projects = props =>
       <li>PostgreSQL</li>
     </ul>
     <h2>AuditRequest</h2>
-    <a href="http://auditrequest.herokuapp.com">
-      <img className="project-image" src={auditPic} width="100%"/>
-    </a>
+    <div>
+      <a href="http://auditrequest.herokuapp.com">
+        <img className="project-image" src={auditPic} width="100%"/>
+      </a>
+    </div>
     <p>A project management and communications tool for audit firms and their clientele.</p>
+    <a className="trad-link" href="https://github.com/andrewjford/audit-request-manager">GitHub</a>
+    <a className="trad-link" href="http://auditrequest.herokuapp.com">Demo</a>
     <p>Some of the tools used:</p>
     <ul>
       <li>Ruby on Rails</li>
@@ -40,10 +48,14 @@ const Projects = props =>
       <li>PostgreSQL</li>
     </ul>
     <h2>Expense Tracker</h2>
-    <a href="http://oozetracker.herokuapp.com">
-      <img className="project-image" src={expensePic} width="100%"/>
-    </a>
+    <div>
+      <a href="http://oozetracker.herokuapp.com">
+        <img className="project-image" src={expensePic} width="100%"/>
+      </a>
+    </div>
     <p>A web app to record personal expenses by category and track spending habits.</p>
+    <a className="trad-link" href="https://github.com/andrewjford/expense-tracker">GitHub</a>
+    <a className="trad-link" href="https://oozetracker.herokuapp.com/">Demo</a>
     <p>Some of the tools used:</p>
     <ul>
       <li>Sinatra</li>
