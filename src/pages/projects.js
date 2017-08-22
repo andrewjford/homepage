@@ -15,6 +15,7 @@ const Projects = props =>
       <img className="project-image" src={npePic} />
     </a>
     <p>A map based web app that allows users to explore U.S. National Parks.</p>
+    <p>Some of the tools used:</p>
     <ul>
       <li>React</li>
       <li>Redux</li>
@@ -28,6 +29,7 @@ const Projects = props =>
       <img className="project-image" src={auditPic} width="100%"/>
     </a>
     <p>A project management and communications tool for audit firms and their clientele.</p>
+    <p>Some of the tools used:</p>
     <ul>
       <li>Ruby on Rails</li>
       <li>jQuery</li>
@@ -42,6 +44,7 @@ const Projects = props =>
       <img className="project-image" src={expensePic} width="100%"/>
     </a>
     <p>A web app to record personal expenses by category and track spending habits.</p>
+    <p>Some of the tools used:</p>
     <ul>
       <li>Sinatra</li>
       <li>JavaScript</li>
