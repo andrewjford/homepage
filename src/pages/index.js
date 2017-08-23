@@ -12,7 +12,7 @@ const LowNav = () => {
          <li className="zoom"><Link to="/projects">Projects</Link></li>
          <li className="zoom"><Link to="/about">About</Link></li>
          <li className="zoom"><a href="https://andrewjford.github.io/">Blog</a></li>
-         <li className="zoom"><a href={__PATH_PREFIX__ + 'resume_ford.pdf'}>Resume</a></li>
+         <li className="zoom"><a href="https://s3-us-west-2.amazonaws.com/resume-ford-pdf/resume.pdf">Resume</a></li>
        </ul>
      </nav>
    </div>
