@@ -12,7 +12,8 @@ const LowNav = () => {
          <li className="zoom"><Link to="/projects">Projects</Link></li>
          <li className="zoom"><Link to="/about">About</Link></li>
          <li className="zoom"><a href="https://andrewjford.github.io/">Blog</a></li>
-         <li className="zoom"><a href={__PATH_PREFIX__ + 'resume_ford.pdf'}>Résumé</a></li>
+         {/* <li className="zoom"><a href={__PATH_PREFIX__ + 'resume_ford.pdf'}>Résumé</a></li> */}
+         <li><a href="https://drive.google.com/file/d/0B17PcSI1skW-bzVUd2JZa0ktN0E/view?usp=sharing">Résumé</a></li>
        </ul>
      </nav>
    </div>
