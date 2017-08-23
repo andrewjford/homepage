@@ -1,7 +1,7 @@
 import React from 'react';
-import npePic from './images/npe.png';
-import auditPic from './images/audit.png';
-import expensePic from './images/expense.png';
+import npePic from './images/npe_c.png';
+import auditPic from './images/audit_c.png';
+import expensePic from './images/expense_c.png';
 import headshot from './images/headshot2.jpg'
 
 const Projects = props =>

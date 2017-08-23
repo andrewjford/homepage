@@ -24,7 +24,7 @@ const Header = (props) => {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><a href="https://andrewjford.github.io/">Blog</a></li>
-          <li><a href={__PATH_PREFIX__ + 'resume_ford.pdf'}>Résumé</a></li>
+          <li><a href={__PATH_PREFIX__ + 'resume_ford.pdf'}>Resume</a></li>
         </ul>
       </nav>
     </div>
@@ -37,7 +37,7 @@ const Header = (props) => {
           <li><Link to="/projects">Projects</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><a href="https://andrewjford.github.io/">Blog</a></li>
-          <li><a href={__PATH_PREFIX__ + 'resume_ford.pdf'}>Résumé</a></li>
+          <li><a href={__PATH_PREFIX__ + 'resume_ford.pdf'}>Resume</a></li>
         </ul>
       </nav>
     </div>
