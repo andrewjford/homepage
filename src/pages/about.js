@@ -32,9 +32,4 @@ const About = () =>
     </ul>
   </div>
 
-// Flatiron School - 2017
-// + Full Stack Web Development, Ruby on Rails and JavaScript online program
-// Florida Atlantic University - Boca Raton, FL - May 2011
-// + Master of Accounting and Bachelor of Business Administration with Scholars Distinction, Summa Cum Laude
-
 export default About;
