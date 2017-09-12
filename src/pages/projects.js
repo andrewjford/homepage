@@ -12,13 +12,13 @@ const Projects = props =>
     <h1 className="h1-index">Projects</h1>
     <h2>National Park Explorer</h2>
     <div>
-      <a href="http://natl-park-explorer.herokuapp.com">
+      <a href="http://natl-park-explorer.netlify.com">
         <img className="project-image" src={npePic} />
       </a>
     </div>
     <p>A map based web app that allows users to explore U.S. National Parks.</p>
     <a className="trad-link" href="https://github.com/andrewjford/national-park-explorer-react">GitHub</a>
-    <a className="trad-link" href="http://natl-park-explorer.herokuapp.com">Demo</a>
+    <a className="trad-link" href="http://natl-park-explorer.netlify.com">Demo</a>
     <p>Some of the tools used:</p>
     <ul>
       <li>React</li>
