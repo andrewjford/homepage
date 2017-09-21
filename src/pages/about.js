@@ -7,7 +7,7 @@ const About = () =>
       <img className="headshot" src={headshot} alt="Headshot" />
     </p>
     <p className="about-p">I am a full stack web developer with the majority of my experience in Ruby on Rails and JavaScript. I worked in public accounting for over five years as an auditor and still hold a CPA license in the state of Washington. </p>
-    <p className="about-p">For approximately two years I have been learning coding and software development through online classes and self-study. The past few months I have been enrolled in Flatiron School’s Online Web Development program where I have been learning Ruby on Rails and JavaScript. </p>
+    <p className="about-p">For approximately two years I have been learning coding and software development through online classes and self-study. This past summer I was enrolled in Flatiron School’s Online Web Development Program where I learned Ruby on Rails and JavaScript. </p>
     <h2>Skills</h2>
     <ul className="skill-list">
       <li>Ruby</li>
