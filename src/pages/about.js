@@ -26,12 +26,16 @@ const About = () =>
       <li>TDD</li>
     </ul>
     <h2>Education</h2>
-    <p>Flatiron School - 2017</p>
+    <p>Flatiron School - August 2017</p>
     <ul><li>Full Stack Web Development, Ruby on Rails and Javascript online program</li></ul>
     <p>Florida Atlantic University - Boca Raton, FL - May 2011</p>
     <ul>
       <li>Master of Accounting and Bachelor of Business Administration with Scholars Distinction</li>
       <li>Graduated Summa Cum Laude</li>
+    </ul>
+    <p>University of Florida - Gainesville, FL - May 2008</p>
+    <ul>
+      <li>Bachelor of Arts in History</li>
     </ul>
   </div>
 
