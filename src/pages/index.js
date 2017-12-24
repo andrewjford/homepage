@@ -25,7 +25,7 @@ const IndexPage = () =>
       <img className="headshot" src={headshot} alt="Headshot" />
     </p>
     <h1 className="h1-index">Andrew Ford</h1>
-    <p className="light-text center-text">Web Developer and recent graduate from Flatiron School's online program.</p>
+    <p className="light-text center-text">Software Developer at Bluewolf, an IBM company, and graduate of Flatiron School.</p>
     <div className="icon-bar">
       <a href="http://linkedin.com/in/andrew-j-ford/"><i className="fa fa-linkedin-square"></i></a>
       <a href="http://github.com/andrewjford"><i className="fa fa-github"></i></a>
