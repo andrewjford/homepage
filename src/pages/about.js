@@ -7,7 +7,7 @@ const About = () =>
       <img className="headshot" src={headshot} alt="Headshot" />
     </p>
     <p className="about-p">I am a software developer with the majority of my experience in Salesforce development and Javascript. I work for Bluewolf, an IBM company that provides consulting services for Salesforce.</p>
-    <p className="about-p">Day to day I work with Salesforce Apex and Lightning Web Components. For side projects I enjoy working in Javascript/TypeScript using React/React Native and Express. </p>
+    <p className="about-p">Day to day I do Salesforce development with Apex, Lightning Web Components and some Express/Node. For side projects I enjoy working in Javascript using React/React Native and Express.</p>
     <h2>Skills</h2>
     <ul className="skill-list">
       <li>Javascript</li>
@@ -16,6 +16,7 @@ const About = () =>
       <li>React</li>
       <li>Apex</li>
       <li>Express</li>
+      <li>Node</li>
       <li>TypeScript</li>
       <li>React Native</li>
       <li>HTML</li>

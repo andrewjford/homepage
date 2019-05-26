@@ -2,7 +2,8 @@ import React from 'react';
 import npePic from './images/npe_c.png';
 import auditPic from './images/audit_c.png';
 import expensePic from './images/expense_c.png';
-import headshot from './images/headshot2.jpg'
+import headshot from './images/headshot2.jpg';
+import cashtrackerPic from './images/cashtracker_a.png';
 
 const Projects = props =>
   <div>
@@ -10,6 +11,22 @@ const Projects = props =>
       <img className="headshot" src={headshot} alt="Headshot" />
     </p>
     <h1 className="h1-index">Projects</h1>
+    <h2>Cash Tracker</h2>
+    <div>
+      <a href="https://cashtracker.netlify.com">
+        <img className="project-image" src={cashtrackerPic} />
+      </a>
+    </div>
+    <p>A React app to record personal expenses that consumes an Express API. A React Native version for the API is in progress.</p>
+    <a className="trad-link" href="https://github.com/andrewjford/oozetracker2_react">GitHub</a>
+    <a className="trad-link" href="https://cashtracker.netlify.com">Demo</a>
+    <p>Some of the tools used:</p>
+    <ul>
+      <li>React</li>
+      <li>Redux</li>
+      <li>Express API</li>
+      <li>PostgreSQL</li>
+    </ul>
     <h2>National Park Explorer</h2>
     <div>
       <a href="http://natl-park-explorer.netlify.com">
