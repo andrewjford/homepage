@@ -10,20 +10,22 @@ const About = () =>
     <p className="about-p">In a previous career I worked in public accounting as an auditor. I still hold a CPA license in the state of Washington. </p>
     <h2>Skills</h2>
     <ul className="skill-list">
-      <li>Salesforce development</li>
-      <li>Apex</li>
-      <li>Salesforce Lightning</li>
       <li>Javascript</li>
-      <li>Ruby</li>
-      <li>React.js</li>
+      <li>Salesforce Lightning</li>
+      <li>Lightning Web Components</li>
+      <li>React</li>
+      <li>Apex</li>
+      <li>Express</li>
+      <li>TypeScript</li>
+      <li>React Native</li>
       <li>HTML</li>
       <li>CSS</li>
       <li>SQL</li>
       <li>Git</li>
-      <li>Python</li>
+      <li>API Development</li>
+      <li>Ruby</li>
       <li>Ruby on Rails</li>
       <li>jQuery</li>
-      <li>TDD</li>
     </ul>
     <h2>Education</h2>
     <p>Flatiron School - August 2017</p>
