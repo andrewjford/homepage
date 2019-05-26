@@ -6,8 +6,8 @@ const About = () =>
     <p className="center-text">
       <img className="headshot" src={headshot} alt="Headshot" />
     </p>
-    <p className="about-p">I am a software developer with the majority of my experience in Salesforce development, Javascript, and Ruby on Rails. I work for Bluewolf, an IBM company that provides consulting services for Salesforce.</p>
-    <p className="about-p">In a previous career I worked in public accounting as an auditor. I still hold a CPA license in the state of Washington. </p>
+    <p className="about-p">I am a software developer with the majority of my experience in Salesforce development and Javascript. I work for Bluewolf, an IBM company that provides consulting services for Salesforce.</p>
+    <p className="about-p">Day to day I work with Salesforce Apex and Lightning Web Components. For side projects I enjoy working in Javascript/TypeScript using React/React Native and Express. </p>
     <h2>Skills</h2>
     <ul className="skill-list">
       <li>Javascript</li>
