@@ -1,11 +1,12 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "gatsby-homepage",
+  "description": "my homepage",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Andrew Ford",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gatsby": "^1.8.12",
+    "gatsby-cli": "^2.8.30",
     "gatsby-link": "^1.6.8",
     "gatsby-plugin-react-helmet": "^1.0.3",
     "gatsby-plugin-sass": "^1.0.3"

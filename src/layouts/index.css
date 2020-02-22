@@ -58,15 +58,15 @@
 .project-image {
   border-radius: 4px;
   -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
   width: 100%;
 }
 
 .project-image:hover {
   -webkit-transform: scale(1.02);
-	transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .trad-link {
@@ -75,17 +75,22 @@
   color: #2d2d2d;
 }
 
+.inline-link {
+  text-decoration: underline;
+  color: #2d2d2d;
+}
+
 .zoom {
   border-radius: 4px;
   -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .zoom:hover {
   -webkit-transform: scale(1.08);
-	transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 a {
@@ -133,8 +138,8 @@ nav ul li {
 nav {
   text-align: right;
   margin-right: 0.4rem;
-  font-family: Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
 }
 
 html {
