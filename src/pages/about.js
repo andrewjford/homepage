@@ -7,25 +7,25 @@ const About = () => (
       <img className="headshot" src={headshot} alt="Headshot" />
     </p>
     <p className="about-p">
-      I am a software developer with the majority of my experience in
-      JavaScript, Node.js and Salesforce development. I work for Bluewolf, an
-      IBM company, developing solutions on the Salesforce and Heroku platforms.
+      I am a software developer with the majority of my experience in Salesforce
+      development and JavaScript. I work for Concert Health, developing
+      solutions primarily on the Salesforce platform.
     </p>
     <p className="about-p">
-      Day to day I work primarily with Node.js, Apex and Lightning Web
-      Components. For side projects I enjoy working in TypeScript using React
-      and React Native.
+      Day to day I work primarily with Apex, Lightning Web Components and React.
+      For side projects I enjoy working in TypeScript using React and React
+      Native.
     </p>
     <h2>Skills</h2>
     <ul className="skill-list">
       <li>JavaScript</li>
-      <li>Node</li>
-      <li>TypeScript</li>
-      <li>Express</li>
-      <li>Salesforce Lightning</li>
       <li>Lightning Web Components</li>
       <li>Apex</li>
+      <li>TypeScript</li>
       <li>React</li>
+      <li>Salesforce Lightning</li>
+      <li>Node</li>
+      <li>Express</li>
       <li>React Native</li>
       <li>Redis</li>
       <li>HTML</li>
@@ -34,8 +34,6 @@ const About = () => (
       <li>Git</li>
       <li>API Development</li>
       <li>Heroku</li>
-      <li>Ruby on Rails</li>
-      <li>jQuery</li>
     </ul>
     <h2>Education</h2>
     <p>Flatiron School - August 2017</p>

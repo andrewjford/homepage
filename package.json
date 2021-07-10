@@ -6,7 +6,7 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gatsby": "^1.8.12",
-    "gatsby-cli": "^2.8.30",
+    "gatsby-cli": "^2.19.3",
     "gatsby-link": "^1.6.8",
     "gatsby-plugin-react-helmet": "^1.0.3",
     "gatsby-plugin-sass": "^1.0.3"
